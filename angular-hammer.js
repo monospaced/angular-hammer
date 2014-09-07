@@ -68,6 +68,9 @@ angular.forEach(hmGestures, function(name){
           element.data('hammer', hammer);
         }
 
+        // enable Hammer touch event
+        hammer.get(eventName).set({ enable: true });
+
         // bind Hammer touch event
         hammer.on(eventName, fn);
 
