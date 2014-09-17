@@ -1,5 +1,5 @@
 /*
- * angular-hammer v1.1.3
+ * angular-hammer v1.2.0
  * (c) 2013 Monospaced http://monospaced.com
  * License: MIT
  */
@@ -69,7 +69,9 @@ angular.forEach(hmGestures, function(name){
         }
 
         // enable Hammer touch event
-        hammer.get(eventName).set({ enable: true });
+        hammer.get(eventName).set({
+          enable: true
+        });
 
         // bind Hammer touch event
         hammer.on(eventName, fn);
