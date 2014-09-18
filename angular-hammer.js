@@ -1,5 +1,5 @@
 /*
- * angular-hammer v1.2.1
+ * angular-hammer v1.2.2
  * (c) 2013 Monospaced http://monospaced.com
  * License: MIT
  */
